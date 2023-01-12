@@ -415,6 +415,10 @@ header i {
 .meals:hover {
   padding-right: 75px;
 }
+.meals:hover .cross {
+  opacity: 1;
+  transform: translate(-50px);
+}
 
 @media screen and (min-width: 1024px) {
   .meals {
