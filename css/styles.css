@@ -21,6 +21,25 @@
   }
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Box sizing*/
 * {
   box-sizing: border-box;
@@ -449,6 +468,22 @@ header i {
   .meals {
     width: 300px;
   }
+}
+
+.delay1 {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.delay2 {
+  animation: fadeInUp 2s ease-in-out;
+}
+
+.delay3 {
+  animation: fadeInUp 3s ease-in-out;
+}
+
+.delay4 {
+  animation: fadeInUp 4s ease-in-out;
 }
 
 .full__menu h3 {
