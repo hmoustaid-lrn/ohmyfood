@@ -9,6 +9,18 @@
   }
 }
 
+@keyframes heart {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Box sizing*/
 * {
   box-sizing: border-box;
@@ -462,7 +474,6 @@ header i {
   top: 0;
   opacity: 0;
   transition: transform 330ms ease-in-out;
-
 }
 .cross .fa-check-circle {
   color: #fff;
