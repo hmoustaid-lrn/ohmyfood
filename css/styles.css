@@ -108,7 +108,7 @@ p {
 
 /*Loading spinner*/
 
-main {
+main, header, footer {
   position: relative;
   animation: content-appear 3.5s ease-in-out both;
 }
@@ -185,6 +185,7 @@ main {
     opacity: 0;
   }
 }
+
 
 /*Code couleur*/
 /* font */
